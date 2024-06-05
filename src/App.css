@@ -2,37 +2,66 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.navBar {
+  width: 100vw;
+  background-color:blueviolet;
   color: white;
+  font-size: 24px;
+  padding: 5px;
+
 }
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+nav ul li:hover {
+  color: rgba(0,0,0,0.705)
+}
+
+.welcomeSection {
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: aliceblue;
+  padding: 10px;
+  
+}
+
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  border: 1px solid rgb(172, 171, 171);
+  border-radius: 2px;
+  padding: 1vw 1vw;
+  outline: none;
+  margin: 8px;
+  
+}
+
+.LoginForm {
+  padding: 20px;
+  
+
+ border: 1px solid rgb(172, 171, 171);
+  background-color:rgb(149, 75, 219);
+  max-width: 400px;
+  margin: auto;
+  color: black;
+  font-size: 20px;
+  
 }
